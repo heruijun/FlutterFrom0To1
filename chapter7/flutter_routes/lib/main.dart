@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
 //      ),
 //      home: HomeScreen(),
 //      home: Splash(),
-      home: TestPageRouteBuilder(),
+      home: Page1(),
     );
   }
 }

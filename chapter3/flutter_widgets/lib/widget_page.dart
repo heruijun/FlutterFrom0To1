@@ -30,6 +30,7 @@ class _FlutterWidgetPageState extends State<FlutterWidgetPage> {
     eventList.add("CustomScrollView");
     eventList.add("GridView");
     eventList.add("InheritedWidget");
+    eventList.add("AlertDialogWidget");
   }
 
   @override

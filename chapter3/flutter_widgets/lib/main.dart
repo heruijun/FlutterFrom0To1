@@ -16,6 +16,8 @@ import 'package:flutter_widgets/flex_widget.dart';
 import 'package:flutter_widgets/row_column_widget.dart';
 import 'package:flutter_widgets/wrap_widget.dart';
 
+import 'alertdialog_widget.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -42,6 +44,7 @@ class MyApp extends StatelessWidget {
         '/CustomScrollView': (context) => CustomScrollViewWidget(),
         '/GridView': (context) => GridViewWidget(),
         '/InheritedWidget': (context) => MyTree(),
+        '/AlertDialogWidget': (context) => AlertDialogWidget()
       },
       home: FlutterWidgetPage(title: 'Flutter组件详解'),
     );
