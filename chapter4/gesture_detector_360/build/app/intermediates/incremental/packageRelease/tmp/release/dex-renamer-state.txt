@@ -1,4 +1,0 @@
-#Sun Jul 21 12:39:26 CST 2019
-base.0=/Users/heruijun/FlutterCore/gesture_detector_360/build/app/intermediates/transforms/dexMerger/release/0
-path.0=classes.dex
-renamed.0=classes.dex

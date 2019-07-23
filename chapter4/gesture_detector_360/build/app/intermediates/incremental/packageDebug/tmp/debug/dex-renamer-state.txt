@@ -1,7 +1,0 @@
-#Tue Jul 23 13:33:20 CST 2019
-base.0=/Users/heruijun/FlutterCore/FlutterFrom0To1/chapter4/gesture_detector_360/build/app/intermediates/transforms/dexMerger/debug/1
-path.1=classes.dex
-renamed.1=classes2.dex
-path.0=classes.dex
-renamed.0=classes.dex
-base.1=/Users/heruijun/FlutterCore/FlutterFrom0To1/chapter4/gesture_detector_360/build/app/intermediates/transforms/dexMerger/debug/0
