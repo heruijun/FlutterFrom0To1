@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/../flutter_module/.android/Flutter" />
+            <option value="$USER_HOME$/Documents/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-0.5.3+2/android" />
+            <option value="$USER_HOME$/Documents/flutter/.pub-cache/hosted/pub.flutter-io.cn/xservice_kit-0.0.29/android" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
