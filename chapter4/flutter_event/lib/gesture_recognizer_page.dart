@@ -37,9 +37,14 @@ class _GestureRecognizerState extends State<GestureRecognizerPage> {
                   TextSpan(
                     text: "built",
                     style: TextStyle(
-                        fontSize: 25.0,
-                        color: Colors.blue,
-                        fontWeight: FontWeight.bold),
+                      fontSize: 25.0,
+                      color: Colors.blue,
+                      fontWeight: FontWeight.bold,
+                      decoration: TextDecoration.underline,
+                      decorationThickness: 3.0,
+                      decorationColor: Colors.amber,
+                      decorationStyle: TextDecorationStyle.solid,
+                    ),
                     recognizer: _tapGestureRecognizer
                       ..onTap = () {
                         showInSnackBar("built: 建造");
