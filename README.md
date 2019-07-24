@@ -13,11 +13,14 @@
 
 ## 书中错误修正
 如发现书中内容描述有误，请尽快联系作者，以便作者在第一时间修复，联系方式见“作者简介”。
+
 已知问题，请查看[chapter_error](https://github.com/heruijun/FlutterFrom0To1/tree/master/chapter_error)
 
 ## 作者简介
 目前在平安银行担任移动端架构师，熟悉Android，Hybrid，ReactNative等跨平台方案。并且在团队内部推进和分享Flutter技术实施。
 
 作者联系方式QQ：113805738，微信：heruijun2258
+
 Flutter千人技术交流QQ群：468010872
+
 其他Flutter开源项目：[Flutter仿Boss直聘](https://github.com/heruijun/flutter_boss)
