@@ -112,8 +112,8 @@ public class FlutterCrashReportPlugin implements MethodCallHandler {
         RequestBody body = RequestBody.create(JSON, json);
         Log.e("捕获到Flutter异常：", json);
         Request request = new Request.Builder()
-                .url("http://172.20.10.3:3000/log")
-                //.url("http://192.168.11.104:3000/log")
+                //.url("http://172.20.10.3:3000/log")
+                .url("http://192.168.11.105:3000/log")
                 .post(body)
                 .build();
         CommonOkHttpClient.getOkHttpClient().newCall(request).enqueue(new Callback() {
