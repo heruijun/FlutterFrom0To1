@@ -11,7 +11,7 @@
 
 ## MongoDB 安装和配置方式（二），推荐
 如果上述安装方式（一）在mac上行不通且mongo服务启动不起来，可以考虑通过Homebrew安装。
-1. 安装Homebrew，去官网https://brew.sh/查看，安装命令是：/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+1. 安装Homebrew，安装命令是：/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 2. 执行Homebrew命令：brew services start mongodb
 3. 执行执行mongo命令，开启mongo服务
 
