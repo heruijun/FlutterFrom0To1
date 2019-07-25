@@ -40,5 +40,12 @@
 
 4. 导入客户端Flutter代码，chapter10/flutter-practice，然后需要修改里面ip与服务端一致，然后就可以运行。
 
-## 接口服务
-采用Koa2从mongo数据读取，实战一可以在chapter10/flutter-practice-server/server/routes/index.js查看接口查询代码
+## 项目中涉及ip的替换
+实战一：
+1. chapter10/flutter-practice-server/server/index.js文件，找到并替换const host = process.env.HOST || 'xxx.xxx.xxx.xxx'换成自己的ip地址
+2. chapter10/flutter-practice，在lib/common/config.dart中找到并替换ip
+
+实战二：
+1. chapter10/flutter-log-server/server/index.js文件，找到并替换const host = process.env.HOST || 'xxx.xxx.xxx.xxx'换成自己的ip地址
+2. chapter10/flutter-log-server/common/config.js替换成自己的ip
+3. chapter10/flutter_crash_report里的android目录中，找到FlutterCrashReportPlugin.java这个类，把里面的ip地址换成自己的即可。
