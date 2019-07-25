@@ -31,7 +31,7 @@ class _CompanyDetailPageState extends State<CompanyDetailPage>
 
   Future<CompanyDetail> _fetchCompany() async {
     Response<Map<String, dynamic>> response =
-    await HttpUtil().get('/companyDetail/5c3b757fffd9a60984d706c6');
+    await HttpUtil().get('/companyDetail/5d391d23b018ef73809438c7');
     if (response.statusCode == 200) {
       CompanyDetail companyDetail = CompanyDetail.fromJson(response.data['data']['companyDetail']);
       return companyDetail;
