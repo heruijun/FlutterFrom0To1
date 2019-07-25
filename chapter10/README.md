@@ -1,6 +1,7 @@
 # 概述
 本教程针对《Flutter从0到1构建大前端应用》第十章实战章节，考虑到node服务端对于新手或者非前端从业人员来说安装有些吃力，所以扩展了此篇文章，描述了详细的安装过程。
 安装内容涉及Mongo数据库，node环境，以及Homebrew工具的安装和配置工作。
+以下安装和配置适用于实战一和实战二的服务端代码，即flutter-practice-server和flutter-log-server。
 
 ## MongoDB 安装和配置方式（一）
 1. 下载地址：[https://www.mongodb.com/download-center/community](https://www.mongodb.com/download-center/community)
@@ -40,4 +41,4 @@
 4. 导入客户端Flutter代码，chapter10/flutter-practice，然后需要修改里面ip与服务端一致，然后就可以运行。
 
 ## 接口服务
-采用Koa2从mongo数据读取，在chapter10/flutter-practice-server/server/routes/index.js查看接口查询代码
+采用Koa2从mongo数据读取，实战一可以在chapter10/flutter-practice-server/server/routes/index.js查看接口查询代码

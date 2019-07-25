@@ -119,6 +119,7 @@ public class FlutterCrashReportPlugin implements MethodCallHandler {
         CommonOkHttpClient.getOkHttpClient().newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
+                e.printStackTrace();
                 Log.e("response onFailure", call.request().body().toString());
             }
 

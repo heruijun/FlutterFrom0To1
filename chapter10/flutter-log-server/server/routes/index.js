@@ -5,18 +5,17 @@ const router = require('koa-router')()
 const koaBody = require('koa-body')
 
 router.post('/log', koaBody(), async (ctx) => {
-    ctx.body = JSON.stringify(ctx.request.body)
-    const FlutterLog = mongoose.model('FlutterLog')
-    var flutterLog = new FlutterLog({
-      id: Date.now() + '',
-      device: ctx.request.body.device,
-      message: ctx.request.body.message,
-      cause: ctx.request.body.cause,
-      trace: ctx.request.body.trace
-    })
-    await flutterLog.save()
-  }
-);
+  ctx.body = JSON.stringify(ctx.request.body)
+  const FlutterLog = mongoose.model('FlutterLog')
+  var flutterLog = new FlutterLog({
+    id: Date.now() + '',
+    device: ctx.request.body.device,
+    message: ctx.request.body.message,
+    cause: ctx.request.body.cause,
+    trace: ctx.request.body.trace
+  })
+  await flutterLog.save()
+});
 
 router.get('/log/find', koaBody(), async (ctx) => {
   ctx.body = JSON.stringify(ctx.request.body)

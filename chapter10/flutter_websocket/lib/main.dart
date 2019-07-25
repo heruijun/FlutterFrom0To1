@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Form(
               child: TextFormField(
                 controller: _controller,
-                decoration: InputDecoration(labelText: 'Send a message'),
+                decoration: InputDecoration(labelText: '发送一条消息'),
               ),
             ),
             StreamBuilder(
