@@ -23,6 +23,7 @@ class _FlutterAnimationPageState extends State<FlutterAnimationPage> {
     eventList.add("AnimatedBuilder");
     eventList.add("Hero");
     eventList.add("StaggerAnimation");
+    eventList.add("AnimatedSwitcher");
   }
 
   @override

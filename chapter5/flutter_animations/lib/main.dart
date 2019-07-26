@@ -8,10 +8,11 @@ import 'package:flutter_animations/curved_animation.dart';
 import 'package:flutter_animations/stagger_demo.dart';
 import 'package:flutter_animations/tween_animation.dart';
 
+import 'animated_switcher.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -26,7 +27,8 @@ class MyApp extends StatelessWidget {
         '/fade': (context) => Fade(),
         '/AnimatedBuilder': (context) => AnimatedBuilderPage(),
         '/Hero': (context) => HeroAnimationPage(),
-        '/StaggerAnimation': (context) => StaggerDemo()
+        '/StaggerAnimation': (context) => StaggerDemo(),
+        '/AnimatedSwitcher': (context) => AnimatedSwitcherDemo(),
       },
       home: FlutterAnimationPage(title: 'Flutter动画'),
     );

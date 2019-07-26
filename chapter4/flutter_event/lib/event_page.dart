@@ -22,7 +22,6 @@ class _FlutterEventPageState extends State<FlutterEventPage> {
     eventList.add("Scale");
     eventList.add("GestureRecognizer");
     eventList.add("BothDirection");
-    eventList.add("GestureSlider");
     eventList.add("NotificationListener");
   }
 

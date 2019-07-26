@@ -25,9 +25,9 @@ async function start() {
   initSchemas()
   await initAdmin()
 
-  // require('./tasks/job-list-task')
-  // require('./tasks/company-list-task')
-  // require('./tasks/company-detail-task')
+  require('./tasks/job-list-task')
+  require('./tasks/company-list-task')
+  require('./tasks/company-detail-task')
 
   app
     .use(router.routes())
