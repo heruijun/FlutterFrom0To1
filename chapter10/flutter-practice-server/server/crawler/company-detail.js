@@ -28,7 +28,7 @@ async function fetchCompany (page, companyId) {
     if (companyImgs.length >= 1) {
       companyImgs.each((index, item) => {
         let img = $(item).attr('src')
-        console.log('图片：' + img)
+        // console.log('图片：' + img)
         companyImgsResult.push(img)
       })
     }

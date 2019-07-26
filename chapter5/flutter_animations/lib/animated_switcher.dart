@@ -25,7 +25,7 @@ class _AnimatedSwitcherState extends State<AnimatedSwitcherDemo>
           transitionBuilder: (child, anim) {
             return ScaleTransition(child: child, scale: anim);
           },
-          duration: Duration(milliseconds: 500),
+          duration: Duration(milliseconds: 350),
           child: IconButton(
             iconSize: 100,
             key: ValueKey(_actionIcon),
