@@ -17,7 +17,7 @@ class _AnimatedSwitcherState extends State<AnimatedSwitcherDemo>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('点击中间❤️'),
+        title: Text('点击中间的❤️'),
         actions: <Widget>[],
       ),
       body: Center(
