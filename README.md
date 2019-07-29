@@ -7,6 +7,11 @@
 2. 使用Android Studio或VSCode导入项目
 3. 执行flutter packages get之后，就可以运行项目。
 
+## 书中勘误表
+如发现书中内容描述有误，请尽快联系作者，以便作者在第一时间修复，联系方式见“作者简介”。
+
+已知问题，请查看[chapter_error](https://github.com/heruijun/FlutterFrom0To1/tree/master/chapter_error)
+
 ## 补充内容
 1. 2019/07/21，手势实现一个360旋转展物，放在[chapter4/gesture_detector_360](https://github.com/heruijun/FlutterFrom0To1/tree/master/chapter4/gesture_detector_360)
 2. 2019/07/23，Flutter在Android端工程化实践，实现了抽取Flutter业务层代码，通过fat-aar打成一个aar包，并且通过变量实现Flutter环境切换，放在[chapter9/flutter_fat_aar](https://github.com/heruijun/FlutterFrom0To1/tree/master/chapter9/flutter_fat_aar)
@@ -19,11 +24,6 @@
 3. nuxt相关知识
 4. vue基础
 5. puppeteer爬虫服务器抓取网站数据
-
-## 书中勘误表
-如发现书中内容描述有误，请尽快联系作者，以便作者在第一时间修复，联系方式见“作者简介”。
-
-已知问题，请查看[chapter_error](https://github.com/heruijun/FlutterFrom0To1/tree/master/chapter_error)
 
 ## 作者简介
 目前在平安银行担任移动端架构师，负责平安口袋银行app信用卡模块的核心业务开发和性能分析治理等工作，熟悉Android，Hybrid，ReactNative等跨平台方案。并且在团队内部推进和分享Flutter技术实施，包括Flutter工程化，路由，插件，MXFlutter等技术调研和探索。
