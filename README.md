@@ -20,7 +20,7 @@
 4. vue基础
 5. puppeteer爬虫服务器抓取网站数据
 
-## 书中错误修正
+## 书中勘误表
 如发现书中内容描述有误，请尽快联系作者，以便作者在第一时间修复，联系方式见“作者简介”。
 
 已知问题，请查看[chapter_error](https://github.com/heruijun/FlutterFrom0To1/tree/master/chapter_error)
