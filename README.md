@@ -1,8 +1,9 @@
 # 《Flutter从0到1构建大前端应用》源码
 
 ## 源码介绍
-源码与书本中的章节对应，由于Flutter技术发展迅速，这里也会有一些更新，建议读者收藏本项目，请读者见下面“补充内容”区域并更新代码，请读者以此处最新代码为准。
-使用说明：
+源码与书本中的章节对应，由于Flutter技术发展迅速，成书的速度跟不上Flutter的更新速度，但是代码可以是最新的，笔者承诺这里的代码会兼容后续的Flutter最新版本，建议读者收藏本项目，“补充内容”区域也是一个好地方，里面经常会有一些更新内容，希望读者常去看看。
+
+代码使用说明：
 1. git clone https://github.com/heruijun/FlutterFrom0To1
 2. 使用Android Studio或VSCode导入项目
 3. 执行flutter packages get之后，就可以运行项目
@@ -14,9 +15,9 @@
 已知问题，请查看[chapter_error](https://github.com/heruijun/FlutterFrom0To1/tree/master/chapter_error)
 
 ## 补充内容
-1. 2019/07/21，对书中第4章手势章节追加了一个手势实现360旋转展物的例子，放在[chapter4/gesture_detector_360](https://github.com/heruijun/FlutterFrom0To1/tree/master/chapter4/gesture_detector_360)
+1. 2019/08/13，新增一个列表型日历组件，支持单选，区域选中，反选等操作，是一个比较全面的例子，源码已经添加到第10章的实战章节，放在放在[chapter10/flutter_calendar](https://github.com/heruijun/FlutterFrom0To1/tree/master/chapter10/flutter_calendar)
 2. 2019/07/23，书中9.3.5章节只对aar打包方式做了简单的讲解，应读者建议，补充了Flutter在Android端工程化实践，实现了抽取Flutter业务层代码，通过fat-aar打成一个aar包，并且通过变量实现Flutter环境切换，放在[chapter9/flutter_fat_aar](https://github.com/heruijun/FlutterFrom0To1/tree/master/chapter9/flutter_fat_aar)
-3. 2019/08/13，新增一个列表型日历组件，支持单选，区域选中，反选等操作，是一个比较全面的例子，源码已经添加到第10章的实战章节，放在放在[chapter10/flutter_calendar](https://github.com/heruijun/FlutterFrom0To1/tree/master/chapter10/flutter_calendar)
+3. 2019/07/21，对书中第4章手势章节追加了一个手势实现360旋转展物的例子，放在[chapter4/gesture_detector_360](https://github.com/heruijun/FlutterFrom0To1/tree/master/chapter4/gesture_detector_360)
 
 ## 关于实战项目（必读）
 本书最后的实战章节，展现了除Flutter之外的一些前端和node服务器的知识，里面涉及到一些安装和配置，考虑到无前端和node基础的同学跑起来比较吃力，所以扩展了一下安装和配置教程，请点击[小白安装和配置文档](https://github.com/heruijun/FlutterFrom0To1/tree/master/chapter10/README.md)查看。
