@@ -19,7 +19,6 @@ class _FlutterAnimationPageState extends State<FlutterAnimationPage> {
     eventList.add("Tween");
     eventList.add("Loading");
     eventList.add("fade");
-    eventList.add("scale");
     eventList.add("AnimatedBuilder");
     eventList.add("Hero");
     eventList.add("StaggerAnimation");
