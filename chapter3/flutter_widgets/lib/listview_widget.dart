@@ -47,22 +47,26 @@ class ListViewWidget extends StatelessWidget {
 //      ),
       body: ListWheelScrollView(
         controller: fixedExtentScrollController,
-        physics: FixedExtentScrollPhysics(),
+        physics: ClampingScrollPhysics(),
         itemExtent: 150.0,
         children: imgList.map((img) {
-          return Card(
+          return Container(
+              height: 150.0,
               child: Row(
-            children: <Widget>[
-              Image.network(
-                img,
-                width: 150.0,
-              ),
-              Text(
-                '文字介绍',
-                style: TextStyle(fontSize: 20.0),
-              )
-            ],
-          ));
+                children: <Widget>[
+                  Image.network(
+                    img,
+                    width: 150.0,
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(right: 10.0),
+                  ),
+                  Text(
+                    '文字介绍',
+                    style: TextStyle(fontSize: 20.0),
+                  )
+                ],
+              ));
         }).toList(),
       ),
     );
