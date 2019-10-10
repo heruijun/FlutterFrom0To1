@@ -22,4 +22,18 @@ void main() {
   print(list);
 
   print(list.asMap());        // 把list转换成map类型
+
+  var companies = ['阿里巴巴','今日头条','爱奇艺'];
+  print(!companies.isEmpty);
+  companies.forEach((company) => print('$company在使用Flutter'));
+
+  var flutterCompanies = companies.map((company) => '$company在使用Flutter');
+  flutterCompanies.forEach(print);
+
+  var flutterCompaniesList = companies.map((company) => '$company在使用Flutter').toList();
+  print(flutterCompaniesList);
+
+  print(companies.where((company) => company == '阿里巴巴'));     // 返回满足where条件的对象
+  print(companies.any((company) => company == '阿里巴巴'));       // 只要存在一个即可
+  print(companies.every((company) => company == '阿里巴巴'));     // 除了阿里巴巴，还有今日头条，爱奇艺
 }
