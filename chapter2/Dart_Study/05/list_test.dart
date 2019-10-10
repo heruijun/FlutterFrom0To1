@@ -20,4 +20,6 @@ void main() {
 
   list.shuffle();             // 随机打乱List里元素的顺序
   print(list);
+
+  print(list.asMap());        // 把list转换成map类型
 }

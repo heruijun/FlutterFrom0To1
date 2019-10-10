@@ -9,8 +9,8 @@ void main() {
   print(a ~/ b);
   print(a % b);
 
-  print(a.isEven);
-  print(a.isOdd);
+  print(a.isEven);    // 判断是否是偶数
+  print(a.isOdd);     // 判断是否是奇数
   print(b.isEven);
   print(b.isOdd);
 

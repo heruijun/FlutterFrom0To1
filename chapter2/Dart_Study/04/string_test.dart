@@ -1,6 +1,7 @@
 void main() {
-  var str1 = 'Hello';
-  var str2 = "Hello2";
+  var str1 = 'Hello';                   // 单引号创建字符串
+  var str2 = "Hello2";                  // 双引号创建字符串
+  // 三引号创建多行字符串
   var str3 = '''你好
               欢迎光临''';
   var str4 = r'双11真给力';
