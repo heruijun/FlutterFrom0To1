@@ -9,6 +9,16 @@ class ContainerWidget extends StatelessWidget {
       ),
       body: Column(
         children: <Widget>[
+          Container(
+            margin: EdgeInsets.all(10.0),
+            color: Colors.blue,
+            child: Text("外边距"),
+          ),
+          Container(
+            padding: EdgeInsets.all(10.0),
+            color: Colors.blue,
+            child: Text("内边距"),
+          ),
           Center(
             child: Container(
               color: Colors.green,

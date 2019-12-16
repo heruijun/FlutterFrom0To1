@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/custom_rounded_rectangle_border.dart';
 
 class ButtonWidget extends StatelessWidget {
   @override
@@ -10,6 +11,7 @@ class ButtonWidget extends StatelessWidget {
       body: Column(
         children: <Widget>[
           RaisedButton(
+            elevation: 10,
             color: Colors.blue,
             child: Text("RaisedButton"),
             textColor: Colors.white,
@@ -17,7 +19,7 @@ class ButtonWidget extends StatelessWidget {
           ),
           FlatButton(
             textColor: Colors.blue,
-            child: Text("FloatButton"),
+            child: Text("FlatButton"),
             onPressed: () {
               print("FlatButton");
             },
@@ -34,7 +36,40 @@ class ButtonWidget extends StatelessWidget {
             onPressed: () {
               print("F");
             },
-          )
+          ),
+          IconButton(
+            color: Colors.red,
+            icon: Icon(Icons.favorite),
+            onPressed: () {
+              print("IconButton");
+            },
+          ),
+          RaisedButton.icon(
+            icon: Icon(Icons.favorite),
+            label: Text("收藏"),
+            onPressed: () {
+              print("带Icon的文字按钮");
+            },
+          ),
+          FlatButton(
+            textTheme: ButtonTextTheme.accent,
+            shape: RoundedRectangleBorder(
+                borderRadius: new BorderRadius.circular(18.0),
+                side: BorderSide(color: Colors.red)),
+            child: Text("Rounded Button"),
+            onPressed: () {
+              print("Rounded Button");
+            },
+          ),
+          FlatButton(
+            shape: BeveledRectangleBorder(
+                borderRadius: new BorderRadius.circular(10.0),
+                side: BorderSide(color: Colors.red)),
+            child: Text("Beveled Button"),
+            onPressed: () {
+              print("Beveled Button");
+            },
+          ),
         ],
       ),
     );

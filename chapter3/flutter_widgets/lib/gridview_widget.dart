@@ -13,12 +13,12 @@ class GridViewWidget extends StatelessWidget {
         crossAxisSpacing: 10.0,
         crossAxisCount: 2,
         children: <Widget>[
-          const Text('He\'d have you all unravel at the'),
-          const Text('Heed not the rabble'),
-          const Text('Sound of screams but the'),
-          const Text('Who scream'),
-          const Text('Revolution is coming...'),
-          const Text('Revolution, they...'),
+          const Text('A'),
+          const Text('B'),
+          const Text('C'),
+          const Text('D'),
+          const Text('E'),
+          const Text('F'),
         ],
       ),
     );

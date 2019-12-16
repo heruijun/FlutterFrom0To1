@@ -17,6 +17,7 @@ import 'package:flutter_widgets/row_column_widget.dart';
 import 'package:flutter_widgets/wrap_widget.dart';
 
 import 'alertdialog_widget.dart';
+import 'custom_appbar_widget.dart';
 
 void main() => runApp(MyApp());
 
@@ -40,6 +41,7 @@ class MyApp extends StatelessWidget {
         '/Wrap': (context) => WrapWidget(),
         '/Row Column': (context) => RowColumnWidget(),
         '/AppBar': (context) => AppBarWidget(),
+        '/CustomAppBar': (context) => CustomAppBarWidget(),
         '/ListView': (context) => ListViewWidget(),
         '/CustomScrollView': (context) => CustomScrollViewWidget(),
         '/GridView': (context) => GridViewWidget(),
