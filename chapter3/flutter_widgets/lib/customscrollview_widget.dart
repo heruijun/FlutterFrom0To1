@@ -6,11 +6,19 @@ class CustomScrollViewWidget extends StatelessWidget {
     return Scaffold(
       body: CustomScrollView(
         slivers: <Widget>[
-          const SliverAppBar(
+          SliverAppBar(
             pinned: true,
             expandedHeight: 250.0,
             flexibleSpace: FlexibleSpaceBar(
               title: Text('Demo'),
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Container(
+              alignment: Alignment(0.0, 0.0),
+              height: 100,
+              color: Colors.yellow,
+              child: Text('Container'),
             ),
           ),
           SliverGrid(
@@ -28,7 +36,7 @@ class CustomScrollViewWidget extends StatelessWidget {
                   child: Text('grid item $index'),
                 );
               },
-              childCount: 20,
+              childCount: 10,
             ),
           ),
           SliverFixedExtentList(

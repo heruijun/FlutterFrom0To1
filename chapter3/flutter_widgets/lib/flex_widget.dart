@@ -18,6 +18,23 @@ class _FlexWidgetState extends State<FlexWidget> {
         ),
         body: Column(
           children: <Widget>[
+            Row(
+              mainAxisSize: MainAxisSize.min,
+              children: <Widget>[
+                FlutterLogo(
+                  size: 40,
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Flexible(
+                  fit: FlexFit.loose,
+                  child: Container(
+                    child: Text('我会自动换行'),
+                  ),
+                )
+              ],
+            ),
             Container(
               height: 400.0,
               child: Flex(

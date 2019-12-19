@@ -24,6 +24,7 @@ class _FlutterWidgetPageState extends State<FlutterWidgetPage> {
     eventList.add("Button");
     eventList.add("Flex");
     eventList.add("Wrap");
+    eventList.add("Stack");
     eventList.add("Row Column");
     eventList.add("AppBar");
     eventList.add("CustomAppBar");

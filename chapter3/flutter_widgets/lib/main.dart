@@ -10,6 +10,7 @@ import 'package:flutter_widgets/fractionallysizedbox_widget.dart';
 import 'package:flutter_widgets/gridview_widget.dart';
 import 'package:flutter_widgets/listview_widget.dart';
 import 'package:flutter_widgets/myinherited_widget.dart';
+import 'package:flutter_widgets/stack_widget.dart';
 import 'package:flutter_widgets/text_image_icon_widget.dart';
 import 'package:flutter_widgets/widget_page.dart';
 import 'package:flutter_widgets/flex_widget.dart';
@@ -39,6 +40,7 @@ class MyApp extends StatelessWidget {
         '/Button': (context) => ButtonWidget(),
         '/Flex': (context) => FlexWidget(),
         '/Wrap': (context) => WrapWidget(),
+        '/Stack': (context) => StackWidget(),
         '/Row Column': (context) => RowColumnWidget(),
         '/AppBar': (context) => AppBarWidget(),
         '/CustomAppBar': (context) => CustomAppBarWidget(),
