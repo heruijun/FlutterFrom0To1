@@ -15,6 +15,7 @@ class _FlutterWidgetPageState extends State<FlutterWidgetPage> {
   @override
   void initState() {
     super.initState();
+    eventList.add("Context");
     eventList.add("Container");
     eventList.add("ConstrainedBox");
     eventList.add("FittedBox");
@@ -33,6 +34,7 @@ class _FlutterWidgetPageState extends State<FlutterWidgetPage> {
     eventList.add("GridView");
     eventList.add("InheritedWidget");
     eventList.add("AlertDialogWidget");
+    eventList.add("BottomSheetWidget");
   }
 
   @override

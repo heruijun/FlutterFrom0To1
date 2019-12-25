@@ -18,6 +18,8 @@ import 'package:flutter_widgets/row_column_widget.dart';
 import 'package:flutter_widgets/wrap_widget.dart';
 
 import 'alertdialog_widget.dart';
+import 'bottomsheet_widget.dart';
+import 'context_test.dart';
 import 'custom_appbar_widget.dart';
 
 void main() => runApp(MyApp());
@@ -31,6 +33,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: {
+        '/Context': (context) => ContextTest(),
         '/Container': (context) => ContainerWidget(),
         '/ConstrainedBox': (context) => ConstrainedBoxWidget(),
         '/FittedBox': (context) => FittedBoxWidget(),
@@ -48,7 +51,8 @@ class MyApp extends StatelessWidget {
         '/CustomScrollView': (context) => CustomScrollViewWidget(),
         '/GridView': (context) => GridViewWidget(),
         '/InheritedWidget': (context) => MyTree(),
-        '/AlertDialogWidget': (context) => AlertDialogWidget()
+        '/AlertDialogWidget': (context) => AlertDialogWidget(),
+        '/BottomSheetWidget': (context) => BottomSheetWidget()
       },
       home: FlutterWidgetPage(title: 'Flutter组件详解'),
     );
