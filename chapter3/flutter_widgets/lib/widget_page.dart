@@ -36,6 +36,7 @@ class _FlutterWidgetPageState extends State<FlutterWidgetPage> {
     eventList.add("AlertDialogWidget");
     eventList.add("BottomSheetWidget");
     eventList.add("TextField");
+    eventList.add("TextFieldKeyboardFix");
   }
 
   @override

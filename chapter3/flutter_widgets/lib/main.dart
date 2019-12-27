@@ -13,6 +13,7 @@ import 'package:flutter_widgets/listview_widget.dart';
 import 'package:flutter_widgets/myinherited_widget.dart';
 import 'package:flutter_widgets/stack_widget.dart';
 import 'package:flutter_widgets/text_image_icon_widget.dart';
+import 'package:flutter_widgets/textfield_keyboard_fix.dart';
 import 'package:flutter_widgets/widget_page.dart';
 import 'package:flutter_widgets/flex_widget.dart';
 import 'package:flutter_widgets/row_column_widget.dart';
@@ -55,6 +56,7 @@ class MyApp extends StatelessWidget {
         '/AlertDialogWidget': (context) => AlertDialogWidget(),
         '/BottomSheetWidget': (context) => BottomSheetWidget(),
         '/TextField': (context) => TextFieldWidget(),
+        '/TextFieldKeyboardFix': (context) => TextFieldKeyboardFix(),
       },
       home: FlutterWidgetPage(title: 'Flutter组件详解'),
     );
