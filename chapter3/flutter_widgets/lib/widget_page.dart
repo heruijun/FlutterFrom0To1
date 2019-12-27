@@ -35,6 +35,7 @@ class _FlutterWidgetPageState extends State<FlutterWidgetPage> {
     eventList.add("InheritedWidget");
     eventList.add("AlertDialogWidget");
     eventList.add("BottomSheetWidget");
+    eventList.add("TextField");
   }
 
   @override

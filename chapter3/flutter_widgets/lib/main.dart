@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/text_field_form_widget.dart';
 import 'package:flutter_widgets/appbar_widget.dart';
 import 'package:flutter_widgets/baseline_widget.dart';
 import 'package:flutter_widgets/button_widget.dart';
@@ -52,7 +53,8 @@ class MyApp extends StatelessWidget {
         '/GridView': (context) => GridViewWidget(),
         '/InheritedWidget': (context) => MyTree(),
         '/AlertDialogWidget': (context) => AlertDialogWidget(),
-        '/BottomSheetWidget': (context) => BottomSheetWidget()
+        '/BottomSheetWidget': (context) => BottomSheetWidget(),
+        '/TextField': (context) => TextFieldWidget(),
       },
       home: FlutterWidgetPage(title: 'Flutter组件详解'),
     );
