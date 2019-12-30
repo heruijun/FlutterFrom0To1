@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/tabbar_widget.dart';
 import 'package:flutter_widgets/text_field_form_widget.dart';
 import 'package:flutter_widgets/appbar_widget.dart';
 import 'package:flutter_widgets/baseline_widget.dart';
@@ -57,6 +58,7 @@ class MyApp extends StatelessWidget {
         '/BottomSheetWidget': (context) => BottomSheetWidget(),
         '/TextField': (context) => TextFieldWidget(),
         '/TextFieldKeyboardFix': (context) => TextFieldKeyboardFix(),
+        '/TabBar': (context) => TabBarWidget(),
       },
       home: FlutterWidgetPage(title: 'Flutter组件详解'),
     );
