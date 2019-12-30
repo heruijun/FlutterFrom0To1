@@ -38,6 +38,7 @@ class _FlutterWidgetPageState extends State<FlutterWidgetPage> {
     eventList.add("TextField");
     eventList.add("TextFieldKeyboardFix");
     eventList.add("TabBar");
+    eventList.add("ComplexTabBarView");
   }
 
   @override

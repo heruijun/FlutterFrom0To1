@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/complex_tabbarview_widget.dart';
 import 'package:flutter_widgets/tabbar_widget.dart';
 import 'package:flutter_widgets/text_field_form_widget.dart';
 import 'package:flutter_widgets/appbar_widget.dart';
@@ -59,6 +60,7 @@ class MyApp extends StatelessWidget {
         '/TextField': (context) => TextFieldWidget(),
         '/TextFieldKeyboardFix': (context) => TextFieldKeyboardFix(),
         '/TabBar': (context) => TabBarWidget(),
+        '/ComplexTabBarView': (context) => ComplexTabBarViewWidget(),
       },
       home: FlutterWidgetPage(title: 'Flutter组件详解'),
     );
